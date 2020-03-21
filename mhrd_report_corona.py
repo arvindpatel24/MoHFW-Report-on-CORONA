@@ -15,7 +15,7 @@ try:
 		x = t.findAll('tr')
 		tr.append(x)
 	States,Indian,Foreign,Cured,Death = [],[],[],[],[]
-	for i in range(1,21):
+	for i in range(1,len(tr[0])-1):
 	    States.append(tr[0][i].findAll('td')[1].text)
 	    Indian.append(tr[0][i].findAll('td')[2].text)
 	    Foreign.append(tr[0][i].findAll('td')[3].text)
