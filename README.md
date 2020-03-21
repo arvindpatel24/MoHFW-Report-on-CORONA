@@ -8,3 +8,5 @@
 5. Now type 'python mhrd_report_corona.py' and press enter.
 
 That's It :)
+
+A video is also available for the same.
